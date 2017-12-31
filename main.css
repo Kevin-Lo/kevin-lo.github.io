@@ -12,12 +12,13 @@ body{
 }
 
 a{
-	color: #A9A9A9;
+	text-decoration: none;
 }
-a:hover{
-	background-color: #696969;
+	a:hover, a:active{
+		color: #696969;
+		text-decoration: unerline;
 
-}
+	}
 
 nav{
 	text-align: center;
@@ -35,52 +36,3 @@ nav{
 	border-radius: 15px;
 }
 
-#quick-facts{
-	font-family: times;
-	text-align: left;
-	font-size: 18px;
-	height: 60%;
-	width: 65%;
-	border: 1px solid #e3c63c;
-	border-radius: 15px;
-}
-
-#contact-info{
-	font-family: times;
-	text-align: center;
-	font-size: 18px;
-	height: 60%;
-	width: 33%;
-	border: 1px solid #e3c63c;
-	border-radius: 15px;
-}
-
-#classes{
-	font-family: times;
-	text-align: left;
-	font-size: 18px;
-	height: 60%;
-	width: 45%;
-	border: 1px solid #e3c63c;
-	border-radius: 15px;
-}
-
-#extracurriculars{
-	font-family: times;
-	text-align: left;
-	font-size: 18px;
-	height: 60%;
-	width: 53%;
-	border: 1px solid #e3c63c;
-	border-radius: 15px;
-}
-
-#contact-info2{
-	font-family: times;
-	text-align: center;
-	font-size: 18px;
-	height: 60%;
-	width: 53%;
-	border: 1px solid #e3c63c;
-	border-radius: 15px;
-}
