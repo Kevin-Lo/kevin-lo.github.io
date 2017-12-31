@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="57.5px" height="64px" viewBox="0 0 57.5 64" enable-background="new 0 0 57.5 64" xml:space="preserve">
+<path fill="#BC2360" fill-opacity="0.5" d="M25.333,57.381L6.32,36.495c-4.845-5.141-4.783-13.406,0.143-18.466
+	c4.921-5.058,12.846-4.998,17.692,0.137l3.604,4.646l3.675-4.589c4.924-5.06,12.851-4.998,17.691,0.137
+	c4.848,5.135,4.784,13.4-0.143,18.465L29.656,57.412c-1.203,1.283-3.141,1.268-4.323-0.033V57.381z">
+<animate  fill="remove" additive="replace" accumulate="none" attributeName="fill-opacity" calcMode="linear" restart="always" dur="1.4s" begin="0s" values="0.5;1;0.5" repeatCount="indefinite">
+		</animate>
+</path>
+</svg>
