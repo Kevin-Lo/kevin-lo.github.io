@@ -5,7 +5,7 @@ body{
 	font-family: open sans;
 	size: 48px;
 	color: #A9A9A9;
-	background-color: white;
+	background-image: background.jpg;
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: scroll;
