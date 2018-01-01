@@ -5,9 +5,9 @@ body{
 	font-family: open sans;
 	size: 48px;
 	color: #A9A9A9;
-	background-image: background.jpg;
+	background-image: url("background.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	overflow: scroll;
 }
 
