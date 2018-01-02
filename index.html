@@ -7,8 +7,6 @@
 	<style>
 		div.kev{
 			position: relative;
-			top: 300px;
-			right: 450px;
 			z-idex: -1;
 		}
 		div.heart{
@@ -32,13 +30,13 @@
 		<br>
 		<br>
     </div>
-
+    <!--
     <nav>
 		<a href = "https://kevin-lo.github.io/"> Home &nbsp;&nbsp; </a>
 		<a href = "about-me.html"> About Me &nbsp;&nbsp; </a>
 		<a href= "KevinLoResume.pdf"> Resume &nbsp;&nbsp; </a>
 		<a href= "contactinfo.html"> Contact &nbsp;&nbsp; </a>
-	</nav>
+	</nav> -->
 	<br>
 	<br>
 	<div class = "kev" style = "text-align: center;">
@@ -52,6 +50,22 @@
 		<a href = "my-mind.html"><img src = "ripple.gif" alt = "indicator" style="width: 25px;height:23px"/></a>
 	</div>	
 
+	<!--Navigation Bar -->
+	<div id="navbar" class="sidenav">
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>  
+
+	    <div id = "navlinks">
+		    <a href = "https://kevin-lo.github.io/"> Home &nbsp;&nbsp; </a>
+			<a href = "about-me.html"> About Me &nbsp;&nbsp; </a>
+			<a href= "KevinLoResume.pdf"> Resume &nbsp;&nbsp; </a>
+			<a href= "contactinfo.html"> Contact &nbsp;&nbsp; </a>
+	    </div>
+    </div>
+
+    <div id="sidebar">
+        <span style="font-size:20px;cursor:pointer;color:black;padding:8px;" onclick="openNav()">&#75;</span>
+    </div>
+    <script src="navigationbar.js"></script>
 	
 </body>
 
