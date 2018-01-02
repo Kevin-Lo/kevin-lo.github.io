@@ -93,8 +93,10 @@ nav{
 .container{
 	position: relative;
 	border: 1px solid #c00;
-	width: 200px;
-	height:200px;
+	width: 400px;
+	height:400px;
+	transform:translateX(-50%);
+	transform:translateY(-60%);	
 }
 
 div.kev{
