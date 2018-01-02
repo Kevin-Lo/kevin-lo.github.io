@@ -85,7 +85,7 @@ nav{
 
 .container{
 	position: relative;
-	border: 1px solid #c00;
+	border: 1px solid transparent;
 	width: 400px;
 	height:400px;
 	transform:translateX(-50%);
