@@ -91,9 +91,10 @@ nav{
 }
 
 .container{
-	width: 100%;
-	position: absolute;
-	padding: 20px;
+	position: relative;
+	border: 1px solid #c00;
+	width: 200px;
+	height:200px;
 }
 
 div.kev{
