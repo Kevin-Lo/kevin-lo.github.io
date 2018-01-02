@@ -120,7 +120,6 @@ a:active {
 .dropdown {
   float: left;
   overflow: hidden;
-  position: absolute;
 }
 
 /* Dropdown button */
@@ -170,7 +169,7 @@ a:active {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-
+}
 .show {display:block;}
 
 /*contains images*/
