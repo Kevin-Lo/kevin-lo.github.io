@@ -102,20 +102,19 @@ nav{
 div.kev{
 	position: relative;
 	-webkit-transform: translateX(-50%);
-	-webkit-transform: translateY(-60%);
 	transform:translateX(-50%);
-	transform:translateY(-60%);
+	top: 50px;
 	z-idex: -1;
 }
 div.heart{
 	position: relative;
-	top: 200px;
+	top: 50px;
 	-webkit-transform: translateX(-50%);
 	transform:translateX(-50%);	
 }
 div.mindmarker{
 	position: relative;
-	top: 200px;
+	top: 50px;
 	-webkit-transform: translateX(-50%);
 	transform:translateX(-50%);
 }
