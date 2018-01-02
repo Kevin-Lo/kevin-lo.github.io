@@ -32,6 +32,7 @@ nav{
 	height: 12%; 
 	width: 100%;
 	text-align: center;
+}
 
 #sidebar{
   width: 50px;
@@ -47,10 +48,10 @@ nav{
   transition: width .2s;
 }
 
-#sidebar:hover {
-  opacity: 1;
-  transition: opacity 1.5s;
-}	
+	#sidebar:hover {
+	  opacity: 1;
+	  transition: opacity 1.5s;
+	}	
 
 .sidenav {
   height: 100%;
