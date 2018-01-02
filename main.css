@@ -96,7 +96,7 @@ nav{
 	width: 400px;
 	height:400px;
 	transform:translateX(-50%);
-	transform:translateY(-60%);	
+	left: 100px;
 } 
 
 div.kev{
