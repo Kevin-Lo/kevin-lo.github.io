@@ -108,13 +108,13 @@ div.kev{
 	z-idex: -1;
 }
 div.heart{
-	position: absolute;
+	position: relative;
 	top: 200px;
 	-webkit-transform: translateX(-50%);
 	transform:translateX(-50%);	
 }
 div.mindmarker{
-	position: absolute;
+	position: relative;
 	top: 200px;
 	-webkit-transform: translateX(-50%);
 	transform:translateX(-50%);
