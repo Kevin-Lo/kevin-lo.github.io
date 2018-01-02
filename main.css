@@ -8,6 +8,7 @@ body{
 	background-image: url("background.jpg");
 	background-size: auto 100%;
 	/*background-repeat: repeat-x, repeat-y; */
+	/*https://stackoverflow.com/questions/12694559/vertically-stretch-background-image*/
 	overflow: scroll;
 }
 /*
@@ -113,7 +114,7 @@ nav{
 } 
 
 div.kev{
-	position: relative;
+	position: absolute;
 	-webkit-transform: translateX(-50%);
 	-webkit-transform: translateY(50%);
 	transform:translateX(-50%);
@@ -121,12 +122,12 @@ div.kev{
 	z-idex: -1;
 }
 div.heart{
-	position: relative;
+	position: absolute;
 	-webkit-transform: translateX(-50%);
 	transform:translateX(-50%);	
 }
 div.mindmarker{
-	position: relative;
+	position: absolute;
 	-webkit-transform: translateX(-50%);
 	transform:translateX(-50%);
 }
