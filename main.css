@@ -126,12 +126,12 @@ div.heart{
 	position: absolute;
 	-webkit-transform: translateX(-50%);
 	transform:translateX(-50%);	
-	left: 90px;
-	top: 75px;
+	left: 87px;
+	top: 80px;
 }
 div.mindmarker{
 	position: absolute;
-	left: 35px;
+	left: 45px;
 }
 
 
