@@ -6,7 +6,7 @@ body{
 	size: 48px;
 	color: #A9A9A9;
 	background-image: url("background.jpg");
-	background-size: auto 100%;
+	background-size: 100% 100%;
 	/*background-repeat: repeat-x, repeat-y; */
 	/*https://stackoverflow.com/questions/12694559/vertically-stretch-background-image*/
 	overflow: scroll;
@@ -110,7 +110,7 @@ nav{
 	width: 400px;
 	height:400px;
 	transform:translateX(-50%);
-	left: 300px;
+	left: 600px;
 } 
 
 div.kev{
