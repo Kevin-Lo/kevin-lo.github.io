@@ -134,5 +134,22 @@ div.mindmarker{
 	left: 50px;
 }
 
+div.eyesmarker{
+	position: absolute;
+	left: 10px;
+	top: 25px;
+}
+
+div.handsmarker{
+	position: absolute;
+	left: 10px;
+	top: 180px;
+}
+
+div.feetmarker{
+	position: absolute;
+	left: 10px;
+	top: 300px;
+}
 
 
