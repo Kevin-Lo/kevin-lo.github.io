@@ -89,7 +89,7 @@ nav{
   font-size: 36px;
   margin-left: 50px;
 }
-
+/*
 .container{
 	position: relative;
 	border: 1px solid #c00;
@@ -97,10 +97,10 @@ nav{
 	height:400px;
 	transform:translateX(-50%);
 	transform:translateY(-60%);	
-}
+} */
 
 div.kev{
-	position: absolute;
+	position: relative;
 	-webkit-transform: translateX(-50%);
 	transform:translateX(-50%);
 	transform:translateY(-60%);
