@@ -26,6 +26,23 @@ nav{
 	text-align: center;
 	text-decoration: none;
 }
+a:link {
+    color: #A9A9A9;
+        text-decoration: none;
+}
+a:visited {
+    color: #A9A9A9;
+        text-decoration: none;
+}
+a:hover {
+    color: #696969;
+        text-decoration: none;
+}
+a:active {
+    color: #A9A9A9;
+        text-decoration: none;
+}
+
 
 #sidebar {
   width: 50px;
