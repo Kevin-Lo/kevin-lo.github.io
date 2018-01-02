@@ -131,11 +131,13 @@ a:active {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
+
 }
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+ 	color: #696969;
+	text-decoration: underline;
 }
 
 /* Dropdown content (hidden by default) */
@@ -146,6 +148,7 @@ a:active {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  
 }
 
 /* Links inside the dropdown */
