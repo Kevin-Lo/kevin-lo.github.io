@@ -110,7 +110,7 @@ nav{
 	width: 400px;
 	height:400px;
 	transform:translateX(-50%);
-	left: 900px;
+	left: 850px;
 } 
 
 div.kev{
@@ -129,9 +129,7 @@ div.heart{
 }
 div.mindmarker{
 	position: absolute;
-	-webkit-transform: translateX(-50%);
-	transform:translateX(-50%);
-	top: 200px;
+	left: 15px;
 }
 
 
