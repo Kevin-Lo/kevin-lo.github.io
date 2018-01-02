@@ -34,7 +34,20 @@ nav{
 	text-align: center;
 }
 
-#sidebar{
+#logo{
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  height: 75px; 
+  width: 105px;
+  text-align: center;
+  border: .1px transparent black;
+  line-height: 100%;
+  float: left;
+}
+
+#sidebar {
   width: 50px;
   top:0;
   left:0;
@@ -47,11 +60,10 @@ nav{
   transition: opacity 1.5s;
   transition: width .2s;
 }
-
-	#sidebar:hover {
-	  opacity: 1;
-	  transition: opacity 1.5s;
-	}	
+#sidebar:hover {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
 
 .sidenav {
   height: 100%;
@@ -82,13 +94,14 @@ nav{
   color: grey;
 }
 
-.sidenav .close {
+.sidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
 }
+
 
 .container{
 	position: relative;
