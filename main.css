@@ -203,9 +203,10 @@ div.mindmarker{
 	left: 50px;
 }
 
-div.eyesmarker{
+div.eyemarker{
 	position: absolute;
 	top: 15px;
+	left: 8px;
 }
 
 div.handsmarker{
