@@ -205,19 +205,19 @@ div.mindmarker{
 
 div.eyemarker{
 	position: absolute;
-	top: 15px;
-	left: 8px;
+	top: 25px;
+	left: 12px;
 }
 
 div.handsmarker{
 	position: absolute;
-	left: 10px;
+	left: 8px;
 	top: 160px;
 }
 
 div.feetmarker{
 	position: absolute;
-	left: 10px;
+	left: 8px;
 	top: 330px;
 }
 
