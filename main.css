@@ -221,4 +221,59 @@ div.feetmarker{
 	top: 330px;
 }
 
+.contactbox{
+	position: relative;
+	border: 1px solid red;
+	width: 200px;
+	height:300px;
+	transform:translateX(-50%);
+	left: 300px;
+} 
+
+#email{
+	font-family: open sans;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	left: 15px;
+
+}
+
+#socialmedia{
+	font-family: open sans;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	left: 15px;
+
+}
+
+.fb{
+	position: absolute;
+	left: 25px;
+}
+.fb a:hover{
+	background-color: #0060df;
+}
+.instagram{
+	position: absolute;
+	left: 25px;
+	bottom: 85px;
+}
+.instagram a:hover{
+	background-color: #ff6c89;
+	
+}
+.linkedin{
+	position: absolute;
+	left: 25px;
+	bottom: 30px;
+}
+.linkedin a:hover{
+	background-color: #006c89;
+	
+}
+
+
+
 
