@@ -175,50 +175,55 @@ a:active {
 /*contains images*/
 .container{
 	position: relative;
-	border: 1px solid transparent;
+	border: 1px solid red;
 	width: 400px;
 	height:400px;
+	/*
 	transform:translateX(-50%);
-	left: 800px;
-} 
+	left: 800px; */
+	margin: 0 auto;
+}
 
-div.kev{
+div.kev{	
 	position: absolute;
-	-webkit-transform: translateX(-50%);
-	/*-webkit-transform: translateY(50%);*/
-	transform:translateX(-50%);
-	left: 30px;
-	/*transform:translateY(50%);*/
-	z-idex: -1;
+	-webkit-transform: translateX(15%);
+	transform:translateX(15%);
+	/*left: 30px;*/
+	left: 8%;
+	top: 10%;
+	z-idex: -1; 
 }
 div.heart{
 	position: absolute;
 	-webkit-transform: translateX(-50%);
 	transform:translateX(-50%);	
-	left: 85px;
-	top: 85px;
+	/*left: 85px;
+	top: 85px;*/
+	left: 59%;
+	top: 30%;
 }
 div.mindmarker{
 	position: absolute;
-	left: 50px;
+	left: 50%;
+	top: 9%;
 }
 
 div.eyemarker{
 	position: absolute;
-	top: 25px;
-	left: 12px;
+	top: 16%;
+	left: 40%;
 }
 
 div.handsmarker{
 	position: absolute;
-	left: 8px;
-	top: 160px;
+	left: 42%;
+	top: 50%;
 }
 
 div.feetmarker{
 	position: absolute;
-	left: 8px;
-	top: 330px;
+	left: 42%;
+	bottom: 5%;
 }
 
 .contactbox{
@@ -236,7 +241,10 @@ div.feetmarker{
 	font-weight: bold;
 	text-decoration: underline;
 	left: 15px;
-
+	color: black;
+}
+#address{
+	color:black;
 }
 
 #socialmedia{
@@ -245,6 +253,7 @@ div.feetmarker{
 	font-weight: bold;
 	text-decoration: underline;
 	left: 15px;
+	color: black;
 
 }
 
@@ -258,7 +267,7 @@ div.feetmarker{
 .instagram{
 	position: absolute;
 	left: 25px;
-	bottom: 85px;
+	bottom: 68px;
 }
 .instagram a:hover{
 	background-color: #ff6c89;
@@ -267,7 +276,7 @@ div.feetmarker{
 .linkedin{
 	position: absolute;
 	left: 25px;
-	bottom: 30px;
+	bottom: 15px;
 }
 .linkedin a:hover{
 	background-color: #006c89;
