@@ -1,86 +1,79 @@
 /* <link rel="stylesheet" href="main.css"> */
 /* this goes in the HEAD tags of your HTML file */
-
-body{
-	font-family: open sans;
-	font-weight: bold;
-	size: 48px;
-	color: #808080;
-	background-color: white;
-	background-size: 100% 100%;
-	/*background-repeat: repeat-x, repeat-y; */
-	overflow: scroll;
+ body{
+  font-family: open sans;
+  font-weight: bold;
+  size: 48px;
+  color: #808080;
+  background-color: white;
+  background-size: 100% 100%;
+  /*background-repeat: repeat-x, repeat-y; */
+  overflow: scroll;
 }
-
-nav{
-	text-align: center;
-	padding: 10px;
+ nav{
+  text-align: center;
+  padding: 10px;
 }
-
-#feetheader{
-	font-family: Avantgarde;
-	font-style: italic;
-	font-size: 23px;
-	font-weight: bold;
-	height: 12%; 
-	width: 65%;
-	position: absolute;
-	overflow: hidden;
-	/*text-align: center;*/
-	/*
-	border: 3px solid transparent;
-	padding: 15px;
-	padding-left: 8%;*/
+ #feetheader{
+  font-family: Avantgarde;
+  font-style: italic;
+  font-size: 23px;
+  font-weight: bold;
+  height: 12%; 
+  width: 65%;
+  position: absolute;
+  overflow: hidden;
+  /*text-align: center;*/
+  /*
+  border: 3px solid transparent;
+  padding: 15px;
+  padding-left: 8%;*/
 }
-
-h3{
-	/*text-shadow: 1px 0px black;*/
-	text-align: center;
-	letter-spacing: 3px;
-	line-height: 1.5;
-	position: fixed;
-	/*position: absolute;*/
+ h3{
+  /*text-shadow: 1px 0px black;*/
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  position: fixed;
+  /*position: absolute;*/
     /*left: 45%;*/
     /*border: 3px solid #73AD21;
     padding: 15px;
     width: 500px;
-	height:260px;*/
+  height:260px;*/
 }
 .feetdescription{
-	/*
-	border: 3px solid #73AD21;
-	z-index: 1;
+  /*
+  border: 3px solid #73AD21;
+  z-index: 1;
     padding: 3%;
     */
     width: 25%;
-	height: 10%;
-	/*position: absolute;*/
-	right: 5%;
-	top: 25%;
+  height: 10%;
+  /*position: absolute;*/
+  right: 5%;
+  top: 25%;
 }
-
-.feetcontainer{
-	position: absolute;
-	border: 1px solid transparent;
-	height: 20px;
-	padding: 15px;
-	padding-left: 8%;
-	margin-left: 5%;
-	/*margin: 0 auto;*/
+ .feetcontainer{
+  position: absolute;
+  border: 1px solid transparent;
+  height: 20px;
+  padding: 15px;
+  padding-left: 8%;
+  margin-left: 5%;
+  /*margin: 0 auto;*/
 }
-
-#heartheader{
-	font-family: sans-serif;
-	font-size: 23px;
-	font-weight: bold;
-	height: 12%; 
-	width: 100%;
-	text-align: center;
-	text-decoration: none;
-	color: #ff69b4;
+ #heartheader{
+  font-family: sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  height: 12%; 
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #ff69b4;
 }
-
-/*makes it so that the header link is not blue or underlined*/
+ /*makes it so that the header link is not blue or underlined*/
 a:link {
     color: #003262;
         text-decoration: none;
@@ -97,9 +90,7 @@ a:active {
     color: #A9A9A9;
         text-decoration: none;
 }
-
-
-#sidebar {
+ #sidebar {
   width: 50px;
   top:0;
   left:0;
@@ -116,8 +107,7 @@ a:active {
   opacity: 1;
   transition: opacity 1.5s;
 }
-
-.sidenav {
+ .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -131,8 +121,7 @@ a:active {
   opacity: 0.7;
   text-align: left;
 }
-
-.sidenav a {
+ .sidenav a {
   padding-left: 15px;
   text-decoration: none;
   font-size: 16px;
@@ -141,27 +130,23 @@ a:active {
   display: block;
   transition: 0.3s
 }
-
-.sidenav a:hover, .offcanvas a:focus{
-	color: #696969;
-	text-decoration: underline;
+ .sidenav a:hover, .offcanvas a:focus{
+  color: #696969;
+  text-decoration: underline;
 }
-
-.sidenav .closebtn {
+ .sidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
 }
-
-/* Navbar container */
+ /* Navbar container */
 .sidenav {
   overflow: hidden;
   background-color: #fff;
  }
-
-/* Links inside the navbar */ 
+ /* Links inside the navbar */ 
 .sidenav a {
   float: none;
   font-size: 16px;
@@ -170,14 +155,12 @@ a:active {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-/* The dropdown container */
+ /* The dropdown container */
 .dropdown {
   float: none;
   overflow: hidden;
 }
-
-/* Dropdown button */
+ /* Dropdown button */
 .dropdown {
   font-size: 16px; 
   border: none;
@@ -185,27 +168,23 @@ a:active {
   color: black;
   padding: 14px 16px;
   background-color: inherit;
-
-}
-
-/*test*/
+ }
+ /*test*/
 .dropbtn{
-	font-family: open sans;
-	font-size: 16px;
-	border: none;
-	outline: none;
-	color: black;
-	background-color: inherit
-	text-decoration: none;
+  font-family: open sans;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit
+  text-decoration: none;
 }
-
-/* Add a gray background color to navbar links on hover */
+ /* Add a gray background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
- 	color: #696969;
-	text-decoration: underline;
+  color: #696969;
+  text-decoration: underline;
 }
-
-/* Dropdown content (hidden by default) */
+ /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: relative; 
@@ -213,10 +192,8 @@ a:active {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgb(88,88,88);
   z-index: 1;
-
-}
-
-/* Links inside the dropdown About Me */
+ }
+ /* Links inside the dropdown About Me */
 .dropdown-content a {
   float: none;
   font-size: 12px;
@@ -226,73 +203,65 @@ a:active {
   display: block;
   text-align: left;
 }
-
-/* Add a grey background color to dropdown links on hover */
+ /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
-
-/* Show the dropdown menu on hover */
+ /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 .show {display:block;}
-
-/*contains images*/
+ /*contains images*/
 .container{
-	position: relative;
-	border: 1px solid transparent;
-	width: 400px;
-	height:400px;
-	/*
-	transform:translateX(-50%);
-	left: 800px; */
-	margin: 0 auto;
+  position: relative;
+  border: 1px solid transparent;
+  width: 400px;
+  height:400px;
+  /*
+  transform:translateX(-50%);
+  left: 800px; */
+  margin: 0 auto;
 }
-
-div.kev{	
-	position: absolute;
-	-webkit-transform: translateX(15%);
-	transform:translateX(15%);
-	/*left: 30px;*/
-	left: 8%;
-	top: 10%;
-	z-index: -1; 
+ div.kev{ 
+  position: absolute;
+  -webkit-transform: translateX(15%);
+  transform:translateX(15%);
+  /*left: 30px;*/
+  left: 8%;
+  top: 10%;
+  z-index: -1; 
 }
 div.heart{
-	position: absolute;
-	-webkit-transform: translateX(-50%);
-	transform:translateX(-50%);	
-	/*left: 85px;
-	top: 85px;*/
-	left: 59%;
-	top: 30%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  transform:translateX(-50%); 
+  /*left: 85px;
+  top: 85px;*/
+  left: 59%;
+  top: 30%;
 }
 div.mindmarker{
-	position: absolute;
-	left: 50%;
-	top: 9%;
+  position: absolute;
+  left: 50%;
+  top: 9%;
 }
-
-div.eyemarker{
-	position: absolute;
-	top: 16%;
-	left: 40%;
+ div.eyemarker{
+  position: absolute;
+  top: 16%;
+  left: 40%;
 }
-
-div.handsmarker{
-	position: absolute;
-	left: 42%;
-	top: 50%;
+ div.handsmarker{
+  position: absolute;
+  left: 42%;
+  top: 50%;
 }
-
-div.feetmarker{
-	position: absolute;
-	left: 42%;
-	bottom: 5%;
+ div.feetmarker{
+  position: absolute;
+  left: 42%;
+  bottom: 5%;
 }
-
-/*Social Media Bar*/
+ /*Social Media Bar*/
 .sticky-container{
     padding:0px;
     margin:0px;
@@ -335,59 +304,47 @@ div.feetmarker{
 }
 .sticky li p a:hover{
     text-decoration:underline;
-}	
-
-/*parallax*/
+} 
+ /*parallax*/
 /* Override UGG site */
 #main {width: 100%; padding:0;}
 .content-asset p {margin:0 auto;}
 .breadcrumb {display:none;}
-
-/* Helpers */
+ /* Helpers */
 /**************************/
 .margin-top-10 {padding-top:10px;}
 .margin-bot-10 {padding-bottom:10px;}
-
-/* Typography */
+ /* Typography */
 /**************************/
 #parallax h1 {font-family: Avantgarde; font-size:23px; font-weight:400; text-transform: uppercase; font-style: italic; color:#808080; padding:0; margin:0;}
-#parallax h2 {font-family: open sans; font-size:70px; letter-spacing:8px; font-style: italic; text-align:center; color: white; font-weight:bolder; text-transform:uppercase; z-index:10; opacity:1; background-color: rgb(128,128,128, 0.1)}
+#parallax h2 {font-family: open sans; font-size:70px; letter-spacing:8px; font-style: italic; text-align:center; color: white; font-weight:bolder; text-transform:uppercase; z-index:10; opacity:1; background-color: rgb(128,128,128, 0.3)}
 #parallax h3 {font-family:'Oswald', sans-serif; font-size:14px; text-align: center; letter-spacing: 3px;line-height: 1.5; color:white; font-style: italic; position: absolute; font-weight: bold; right: 5%; top: 15%; z-index: 5; width: 30%; background-color: rgb(128,128,128, 0.3)}
 #parallax p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
 .first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
-
-.sc {color: #3b8595;}
+ .sc {color: #3b8595;}
 .ny {color: #3d3c3a;}
 .atw {color: #c48660;}
-
-/* Section - Title */
+ /* Section - Title */
 /**************************/
 #parallax .title {background: white; padding:15px; margin-left: 5%; text-align:center;}
 #parallax .title h1 {font-size:35px; letter-spacing:8px;}
-
-/* Section - Block */
+ /* Section - Block */
 /**************************/
 #parallax .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
 #parallax .block-gray {background: #f2f2f2;padding: 60px;}
 #parallax .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
-
-/* Section - Parallax */
+ /* Section - Parallax */
 /**************************/
 #parallax .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(track2.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 #parallax .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(track2.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://news.byu.edu/releases/archive14/Jun/refs/Unknown-1.jpeg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(scenery.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 #parallax .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://media.nj.com/southjerseyhssports/photo/girls-soccer-roundup-photo-lmn-3200-9037787jpg-a65fde8e9554fd62.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-
-#parallax .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://static.wixstatic.com/media/847c88_c3ce55d312a42b0d1eaea5c9903d1a4f.jpg_1024); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-
-#parallax .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://www.crismanphoto.com/media/original/cc_soccer_023.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-
-
-/* Extras */
+ #parallax .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://static.wixstatic.com/media/847c88_c3ce55d312a42b0d1eaea5c9903d1a4f.jpg_1024); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+ #parallax .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://www.crismanphoto.com/media/original/cc_soccer_023.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+ /* Extras */
 /**************************/
 #parallax .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
-
-/* Media Queries */
+ /* Media Queries */
 /**************************/
 @media screen and (max-width: 959px) and (min-width: 768px) {
   #parallax .block {padding: 40px; width:620px;}
