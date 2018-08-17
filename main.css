@@ -6,7 +6,8 @@ body{
 	size: 48px;
 	color: rgb(0, 50, 98); 
 	/*background-image: url("background.jpg");*/
-	background-color: #A9A9A9;
+	/*A9A9A9*/
+	background-color: rgb(255,203,41, 0.7);
 	background-size: 100% 100%;
 	/*background-repeat: repeat-x, repeat-y; */
 	overflow: scroll;
@@ -235,7 +236,7 @@ div.handsmarker{
 
 div.feetmarker{
 	position: absolute;
-	left: 42%;
+	left: 43%;
 	bottom: 5%;
 }
 
